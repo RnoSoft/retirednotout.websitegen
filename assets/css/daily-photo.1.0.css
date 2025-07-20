@@ -1,0 +1,135 @@
+.daily-photo {
+    margin: 0 auto 0 auto;
+    border: 0;
+    padding: 0;
+    width: 98%;
+}
+.daily-photo .title {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+.daily-photo .title h1 {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+.daily-photo .title h2 {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.daily-photo .links-top {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.daily-photo .links-bottom {
+    margin: 1em 0 0 0;
+    border: 0;
+    padding: 0;
+}
+
+
+@media screen and (min-width: 480px) {
+    .daily-photo {
+        width:90%;
+    }
+}
+@media screen and (min-width: 768px) {
+    .daily-photo {
+        width:70%;
+    }
+}
+
+.daily-photo h1 {
+    text-align: center;
+}
+.daily-photo h2 {
+    text-align: center;
+}
+.daily-photo h3 {
+    text-align: center;
+}
+.daily-photo h4 {
+    text-align: center;
+}
+.daily-photo h5 {
+    text-align: center;
+}
+.daily-photo h6 {
+    text-align: center;
+}
+.daily-photo p {
+    text-align: center;
+}
+
+.daily-photo p .image-landscape {
+    clear: both;
+    display: block;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    border: 1px solid black;
+    padding: 0;
+    width: 100%;
+}
+
+.daily-photo p .image-square {
+    clear: both;
+    display: block;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    border: 1px solid black;
+    padding: 0;
+    width: 75%;
+}
+
+.daily-photo p .image-portrait {
+    clear: both;
+    display: block;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    border: 1px solid black;
+    padding: 0;
+    width: 60%;
+}
+
+@media screen and (min-width: 480px) {
+    .daily-photo p .image-portrait {
+        width: 55%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .daily-photo p .image-portrait {
+        width: 50%;
+    }
+}
+
+/* --------------------------------------------------------------------------- */
+
+.daily-photo-bottom {
+    margin: 1.5em 0 0 0;
+    width: 100%;
+}
+.daily-photo-bottom > p {   
+    line-height: 1.2;
+    margin-top: 0.1em;
+    font-size: 1.1rem;
+}
+@media screen and (min-width: 480px) {
+    .daily-photo-bottom p {   
+        line-height: 1.2;
+        margin-top: 0.1em;
+        font-size: 1.2rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .daily-photo-bottom p {   
+        line-height: 1.2;
+        margin-top: 0.1em;
+        font-size: 1.3rem;
+    }
+}

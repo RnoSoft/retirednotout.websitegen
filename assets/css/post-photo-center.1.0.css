@@ -1,0 +1,133 @@
+.post-photo-center {
+    margin: 0 auto 0 auto;
+    border: 0;
+    padding: 0;
+    width: 98%;
+}
+.post-photo-center .text-below-title-1 {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+.post-photo-center .text-below-title-2 {
+    margin: 0.3em 0 0 0;
+    border: 0;
+    padding: 0;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+@media screen and (min-width: 480px) {
+    .post-photo-center {
+        width:90%;
+    }
+    .post-photo-center .text-below-title-1 {
+        font-size: 1.3rem;
+    }
+    .post-photo-center .text-below-title-2 {
+        font-size: 1.3rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .post-photo-center {
+        width:70%;
+    }
+    .post-photo-center .text-below-title-1 {
+        font-size: 1.4rem;
+    }
+    .post-photo-center .text-below-title-2 {
+        font-size: 1.4rem;
+    }
+}
+
+.post-photo-center h1 {
+    text-align: center;
+}
+.post-photo-center h2 {
+    text-align: center;
+}
+.post-photo-center h3 {
+    text-align: center;
+}
+.post-photo-center h4 {
+    text-align: center;
+}
+.post-photo-center h5 {
+    text-align: center;
+}
+.post-photo-center h6 {
+    text-align: center;
+}
+.post-photo-center p {
+    text-align: center;
+}
+
+.post-photo-center p .image-landscape {
+    clear: both;
+    display: block;
+    text-align: center;
+    margin: 0em auto 0em auto;
+    border: 1px solid black;
+    padding: 0;
+    width: 100%;
+}
+
+.post-photo-center p .image-square {
+    clear: both;
+    display: block;
+    text-align: center;
+    margin: 0em auto 0em auto;
+    border: 1px solid black;
+    padding: 0;
+    width: 75%;
+}
+
+.post-photo-center p .image-portrait {
+    clear: both;
+    display: block;
+    text-align: center;
+    margin: 0em auto 0em auto;
+    border: 1px solid black;
+    padding: 0;
+    width: 60%;
+}
+
+@media screen and (min-width: 480px) {
+    .post-photo-center p .image-portrait {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .post-photo-center p .image-portrait {
+        width: 50%;
+    }
+}
+
+/* --------------------------------------------------------------------------- */
+
+.post-photo-center-bottom {
+    margin: 1.5em 0 0 0;
+    width: 100%;
+}
+.post-photo-center-bottom > p {    
+    line-height: 1.2;
+    margin-top: 0.3em;
+    font-size: 1.1rem;
+}
+@media screen and (min-width: 480px) {
+    .post-photo-center-bottom p {   
+        line-height: 1.2;
+        margin-top: 0.3em;
+        font-size: 1.2rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .post-photo-center-bottom p {   
+        line-height: 1.2;
+        margin-top: 0.3em;
+        font-size: 1.3rem;
+    }
+}
+

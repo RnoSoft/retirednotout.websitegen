@@ -1,0 +1,141 @@
+.journal {
+    margin: 0 auto 0 auto;
+    border: 0;
+    padding: 0;
+    width: 98%;
+}
+.journal .title {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+.journal .title h1 {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+.journal .title h2 {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+.journal .title h3 {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.journal .links-top {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.journal .links-bottom {
+    margin: 1em 0 0 0;
+    border: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 480px) {
+    .journal {
+        width:90%;
+    }
+}
+@media screen and (min-width: 768px) {
+    .journal {
+        width:70%;
+    }
+}
+
+.journal h1 {
+    text-align: center;
+}
+.journal h2 {
+    text-align: center;
+}
+.journal h3 {
+    text-align: center;
+}
+.journal h4 {
+    text-align: center;
+}
+.journal h5 {
+    text-align: center;
+}
+.journal h6 {
+    text-align: center;
+}
+.journal p {
+    text-align: center;
+}
+
+.journal p .image-landscape {
+    clear: both;
+    display: block;
+    text-align: center;
+    margin: 1.5em auto 0em auto;
+    border: 1px solid black;
+    padding: 0;
+    width: 100%;
+}
+
+.journal p .image-square {
+    clear: both;
+    display: block;
+    text-align: center;
+    margin: 1.5em auto 0em auto;
+    border: 1px solid black;
+    padding: 0;
+    width: 75%;
+    height: auto;
+}
+
+.journal p .image-portrait {
+    clear: both;
+    display: block;
+    text-align: center;
+    margin: 1.5em auto 0em auto;
+    border: 1px solid black;
+    padding: 0;
+    width: 60%;
+    height: auto;
+}
+
+@media screen and (min-width: 480px) {
+    .journal p .image-portrait {
+        width: 55%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .journal p .image-portrait {
+        width: 50%;
+    }
+}
+
+/* --------------------------------------------------------------------------- */
+
+.journal-bottom {
+    margin: 1.5em 0 0 0;
+    width: 100%;
+}
+.journal-bottom > p {   
+    line-height: 1.2;
+    margin-top: 0.1em;
+    font-size: 1.1rem;
+}
+@media screen and (min-width: 480px) {
+    .journal-bottom p {   
+        line-height: 1.2;
+        margin-top: 0.1em;
+        font-size: 1.2rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .journal-bottom p {   
+        line-height: 1.2;
+        margin-top: 0.1em;
+        font-size: 1.3rem;
+    }
+}
